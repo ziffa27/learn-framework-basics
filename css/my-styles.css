@@ -15,3 +15,13 @@ body {
 .jumbotron {
   text-align: center;
 }
+
+/* Glyphicon
+=========================================== */
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  color: #3a87ad;
+}

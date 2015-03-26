@@ -33,7 +33,16 @@
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About Ribbit</a></li>
                         <li class="disabled"><a href="#">Disabled Link</a></li>
-                        <li><a href="#">Treehouse</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-target="#">Treehouse<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">About Treehouse</a></li>
+                                <li><a href="#">Video Library</a></li>
+                                <li><a href="#">Learning Adventures</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Plans &amp; Pricing</a></li>
+                            </ul>
+                        </li>
                     </ul>
 
                 </div>
@@ -53,16 +62,19 @@
 
             <div class="row">
                 <div class="col-sm-4">
+                    <b class="glyphicon glyphicon-camera"></b>
                     <h2>Delete: Ut accumsan malesuada arcu eget.</h2>
                     <p>In hac habitasse platea dictumst. Maecenas egestas sed enim a pulvinar. Aliquam eu leo eget dui accumsan venenatis. Mauris volutpat, magna in consequat placerat, augue diam fermentum orci id luctus.</p>
                 </div>
 
                 <div class="col-sm-4">
+                    <b class="glyphicon glyphicon-user"></b>
                     <h2>Build: Suspendisse nunc vel mollis.</h2>
                     <p>Phasellus sed nulla mollis, ornare urna vel, ornare dui. Etiam dictum lectus vel magna lobortis, id tempor purus elementum. Cras a iaculis ex, maximus feugiat mi. Sed mauris enim, accumsan ultrices lectus sit amet.</p>
                 </div>
 
                 <div class="col-sm-4">
+                    <b class="glyphicon glyphicon-cloud"></b>
                     <h2>Store: Donec diam lectus fringilla laoreet vitae.</h2>
                     <p>Sed vel suscipit felis. Sed tincidunt maximus quam, non placerat mi finibus sit amet. Nulla facilisi. Donec fermentum ac est elementum sagittis. Nam vestibulum, ante vitae egestas interdum justo odio.</p>
                 </div>
