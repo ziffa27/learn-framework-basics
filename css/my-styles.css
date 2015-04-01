@@ -20,10 +20,14 @@ body {
 =========================================== */
 
 .glyphicon {
-  font-size: 3em;
+/*  font-size: 3em;*/
   display: block;
   text-align: center;
   color: #3a87ad;
+}
+
+.col-sm-4 .glyphicon {
+  font-size: 3em;
 }
 
 /* Carousel
