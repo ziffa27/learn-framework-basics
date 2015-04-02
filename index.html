@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand text-muted" href="#">Rabbit</a>
+                    <a class="navbar-brand text-muted" href="#">Ribbit</a>
                 </div>
 
                 <div class="collapse navbar-collapse">
@@ -64,7 +64,7 @@
                         <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today.</p>
                         <p class="btn-group">
                             <a class="btn btn-success btn-lg" href="#">Download the app</a>
-                            <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
+                            <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me the link</a>
                         </p>
                     </div>
                     <div class="item">
@@ -91,8 +91,38 @@
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             </a>
+        </div><!-- End carousel -->
+
+        <!-- Modals -->
+        <div class="modal fade" id="textModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">We'll Text You the Link!</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                                <input type="tel" class="form-control" id="mobilePhone" placeholder="Enter Mobile Phone">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>iOS</option>
+                                    <option>Android</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit me link</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <!-- End carousel -->
+        <!-- End modals -->
 
       	<div class="container">
             <div class="row">
