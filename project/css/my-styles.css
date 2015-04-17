@@ -56,6 +56,14 @@ h1 {
   padding-top: 32px;
 }
 
+.panel {
+  background-image: url('../img/form-panel-bg.png');
+  background-repeat: repeat-x;
+  border-bottom: solid 1px #eee;
+  padding: 42px 0;
+  margin: 80px 0 132px 0;
+}
+
 /* Jumbotron
 =========================================== */
 
@@ -87,6 +95,23 @@ h1 {
   background-color: #fff;
   color: #957bba;
   border-color: #fff;
+}
+
+button.btn-submit {
+  position: absolute;
+  padding: 11px;
+  border: none;
+  right: 20px;
+  bottom: 1px;
+  background: inherit;
+}
+
+span.glyphicon {
+  font-size: 20px;
+}
+
+.form-control {
+  height: 52px;
 }
 
 /* Logos & Icons
