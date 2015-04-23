@@ -44,7 +44,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-
 /* Layout
 =========================================== */
 
@@ -56,12 +55,64 @@ h1 {
   padding-top: 32px;
 }
 
+.ft-copy p,
+.copy-offset {
+  width: 88%;
+}
+
 .panel {
   background-image: url('../img/form-panel-bg.png');
   background-repeat: repeat-x;
   border-bottom: solid 1px #eee;
   padding: 42px 0;
   margin: 80px 0 132px 0;
+}
+
+.callout {
+  padding: 35px 0;
+  margin-top: 64px;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  border-right: none;
+  border-left: none;
+}
+
+.callout .glyphicon {
+  margin-left: 10px;
+}
+
+.teacher-desc strong {
+  display: block;
+}
+
+.th-copy {
+  padding-top: 30px;
+}
+
+.main-footer {
+  margin:100px 0 80px 0;
+  font-size: 0.95em;
+}
+
+.main-footer a {
+  color: #a6afb2;
+}
+
+.link-list {
+  list-style-type: none;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  opacity: .8;
+  font-size: .9em;
+}
+
+.link-list .heading {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* Jumbotron
@@ -72,7 +123,10 @@ h1 {
   background-repeat: no-repeat;
   background-position: 200% 100%;
   padding: 200px 0 140px 0;
-  margin-bottom: 70px;
+}
+
+.jumbotron p {
+  margin-bottom: 70px; 
 }
 
 .device {
@@ -104,6 +158,14 @@ button.btn-submit {
   right: 20px;
   bottom: 1px;
   background: inherit;
+}
+
+.btn-success {
+  box-shadow: 0 3px 0 #23812f;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  font-size: 1.5em;
+  width: 330px;
+  padding: 15px 0;
 }
 
 span.glyphicon {
@@ -187,6 +249,11 @@ span.glyphicon {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+}
+
+.th-logo {
+  width: 155px;
+  margin: -.75em 0 .95em 0;
 }
 
 /* Media Queries
